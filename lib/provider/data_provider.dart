@@ -183,9 +183,9 @@ class DailyDatabase with ChangeNotifier {
     await _flutterLocalNotificationsPlugin.initialize(initializationSettings);
   }
 
-  //Ativa as notificações a cada minuto
+  //Ativa as notificações a cada hora
   Future<void> sheduledNotification() async {
-    var interval = RepeatInterval.everyMinute;
+    var interval = RepeatInterval.hourly;
 
     var android = AndroidNotificationDetails("id", "channel", "description",
         largeIcon: DrawableResourceAndroidBitmap("icon"));
