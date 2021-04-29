@@ -5,7 +5,6 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-// Para os dados que são adicinados diariamente
 class DailyDatabase with ChangeNotifier {
   // Serviço de notificação
   final FlutterLocalNotificationsPlugin _flutterLocalNotificationsPlugin =
