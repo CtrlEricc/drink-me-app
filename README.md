@@ -1,6 +1,6 @@
-# drinkme_final
+# Drink Me App
 
-A new Flutter project.
+Beautiful and simple water reminder made with Flutter.
 
 ## Getting Started
 
