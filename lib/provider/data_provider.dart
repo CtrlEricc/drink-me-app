@@ -10,7 +10,7 @@ class DailyDatabase with ChangeNotifier {
   final FlutterLocalNotificationsPlugin _flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
 
-  // Variáveis de dados atualizveis
+  // Variáveis de dados mutáveis
   double waterLCurrent = 0;
   double percentConvertValue = 0.0;
   bool goalFinished = false;
@@ -18,7 +18,7 @@ class DailyDatabase with ChangeNotifier {
   List<DailyData> _reversedStoreDataByDate() =>
       _storeDataByDate.reversed.toList();
 
-  // Variáveis de dados constantes
+  // Variáveis de dados pouco mutáveis
   int waterLGoal;
   bool notificationActive = false;
   bool introFinished = false;
