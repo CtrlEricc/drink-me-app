@@ -1,16 +1,10 @@
 # Drink Me App
 
-Beautiful and simple water reminder made with Flutter.
+App simples e bonito de lembrete para tomar água, feito com Flutter. Gestão de estado realizada com uso do Provider. Persistência de dados com MySQL.
 
-## Getting Started
+# Recursos
 
-This project is a starting point for a Flutter application.
+- Seleção de quantidade de água que deseja ingerir por dia.
+- Histórico com as quantidades diárias ingeridas.
+- Notificações enviadas a cada hora lembrando de beber água (há a opção de desativar-las).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
