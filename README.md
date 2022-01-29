@@ -1,6 +1,6 @@
 # Drink Me App
 
-App simples e bonito de lembrete para tomar água, feito com Flutter. Gestão de estado realizada com uso do Provider. Persistência de dados com MySQL.
+App simples e bonito de lembrete para tomar água, feito com Flutter. Gestão de estado com uso do Provider. Persistência de dados com MySQL.
 
 # Recursos
 
