@@ -8,3 +8,4 @@ App simples e bonito de lembrete para tomar água, feito com Flutter. Gestão de
 - Histórico com as quantidades diárias ingeridas.
 - Notificações enviadas a cada hora lembrando de beber água (há a opção de desativar-las).
 
+Google Play Store: https://play.google.com/store/apps/details?id=dev.ctrle.drink_me
